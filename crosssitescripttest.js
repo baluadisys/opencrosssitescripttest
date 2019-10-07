@@ -3,9 +3,7 @@ $( document ).ready(function() {
     alert('cross site scripting');
     
     var classname = document.getElementsByClassName("glyphicon glyphicon-floppy-saved");
-	classname[0].click(function() {
-  alert( "Handler for .click() called." );
-});
+	
 	
 	var myFunction = function() {
 				var attribute = this.getAttribute("data-myattribute");
